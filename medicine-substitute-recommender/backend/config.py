@@ -4,7 +4,7 @@ from pathlib import Path
 # Base Paths
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
-PROCESSED_DATA_PATH = DATA_DIR / "processed" / "medicines_clean.csv"
+PROCESSED_DATA_PATH = DATA_DIR / "processed" / "medicines_clean.csv.gz"
 
 # Recommender Weights for TOPSIS / Multi-Criteria Decision Analysis
 # Weights must sum to 1.0
